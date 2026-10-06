@@ -10,6 +10,14 @@ Copy these into the developer dashboard.
 
 **Category:** Developer Tools
 
+**Language:** English (UK)
+
+**Homepage URL:** https://github.com/dafzthomas/gh-subissue-fields
+
+**Support URL:** https://github.com/dafzthomas/gh-subissue-fields/issues
+
+**Official URL / Marquee tile / promo video:** leave empty.
+
 **Description:**
 
 See your GitHub Projects fields right where you plan work. Sub-issue Fields for GitHub adds coloured pills to every row of an issue's Sub-issues list, showing values like Status, Priority, Iteration or Deadline without opening each sub-issue or switching to the project board.
@@ -24,7 +32,7 @@ Setup: create a classic GitHub personal access token with the repo and read:proj
 
 Not affiliated with or endorsed by GitHub. Source: https://github.com/dafzthomas/gh-subissue-fields
 
-**Images:** store icon `icons/icon-128.png`. Screenshots: `store/screenshot-light.png`, `store/screenshot-dark.png`. Small promo tile: `store/promo-small.png`.
+**Images:** store icon `store/store-icon-128.png` (96px artwork with transparent padding). Screenshots: `store/screenshot-light.png`, `store/screenshot-dark.png`. Small promo tile: `store/promo-small.png`.
 
 ## Privacy practices
 
