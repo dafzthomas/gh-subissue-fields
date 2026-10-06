@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Sub-issue Fields for GitHub</title>
+<style>
+	body { font: 14px system-ui, sans-serif; max-width: 32rem; margin: 2rem auto; }
+	label { display: block; margin-top: 1rem; font-weight: 600; }
+	input { width: 100%; padding: 6px; margin-top: 4px; box-sizing: border-box; }
+	small { color: #666; font-weight: normal; }
+	button { margin-top: 1rem; }
+</style>
+<h1>Sub-issue Fields for GitHub</h1>
+<form id="form">
+	<label>GitHub token
+		<small>A <a href="https://github.com/settings/tokens/new?scopes=repo,read:project&description=Sub-issue%20Fields%20for%20GitHub" target="_blank">classic token</a> with <code>repo</code> and <code>read:project</code>. If your organisation uses SAML SSO, authorise the token for it. Stored only in this browser and sent only to api.github.com.</small>
+		<input id="token" type="password" autocomplete="off">
+	</label>
+	<label>Fields <small>comma-separated, in display order</small>
+		<input id="fields">
+	</label>
+	<button type="submit">Save</button> <span id="status"></span>
+</form>
+<script src="pills.js"></script>
+<script src="options.js"></script>

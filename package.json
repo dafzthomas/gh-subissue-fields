@@ -1,0 +1,10 @@
+{
+	"name": "gh-subissue-fields",
+	"private": true,
+	"description": "Chrome extension: show GitHub Projects fields on each row of an issue's Sub-issues list.",
+	"license": "MIT",
+	"scripts": {
+		"test": "node --test test/",
+		"package": "rm -rf dist && mkdir dist && zip -q -r dist/gh-subissue-fields.zip manifest.json background.js content.js content.css pills.js options.html options.js icons -x icons/icon.svg"
+	}
+}

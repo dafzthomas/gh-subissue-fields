@@ -1,0 +1,11 @@
+.ghsf-pills { display: inline-flex; gap: 4px; margin-left: 8px; vertical-align: middle; }
+.ghsf-pill { font-size: 12px; font-weight: 500; line-height: 18px; padding: 0 7px; border: 1px solid; border-radius: 2em; white-space: nowrap; }
+.ghsf-pill[data-color="GRAY"] { color: var(--fgColor-muted); background: var(--bgColor-neutral-muted); border-color: var(--borderColor-neutral-muted); }
+.ghsf-pill[data-color="BLUE"] { color: var(--fgColor-accent); background: var(--bgColor-accent-muted); border-color: var(--borderColor-accent-muted); }
+.ghsf-pill[data-color="GREEN"] { color: var(--fgColor-success); background: var(--bgColor-success-muted); border-color: var(--borderColor-success-muted); }
+.ghsf-pill[data-color="YELLOW"] { color: var(--fgColor-attention); background: var(--bgColor-attention-muted); border-color: var(--borderColor-attention-muted); }
+.ghsf-pill[data-color="ORANGE"] { color: var(--fgColor-severe); background: var(--bgColor-severe-muted); border-color: var(--borderColor-severe-muted); }
+.ghsf-pill[data-color="RED"] { color: var(--fgColor-danger); background: var(--bgColor-danger-muted); border-color: var(--borderColor-danger-muted); }
+.ghsf-pill[data-color="PINK"] { color: var(--fgColor-sponsors); background: var(--bgColor-sponsors-muted); border-color: var(--borderColor-sponsors-muted); }
+.ghsf-pill[data-color="PURPLE"] { color: var(--fgColor-done); background: var(--bgColor-done-muted); border-color: var(--borderColor-done-muted); }
+.ghsf-token-link { display: block; padding: 4px 16px; font-size: 12px; }
