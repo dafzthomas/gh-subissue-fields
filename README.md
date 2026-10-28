@@ -28,7 +28,7 @@ Open DevTools on the issue page, pick **Sub-issue Fields for GitHub** in the Con
 - `npm test` runs the unit tests (Node 20+, no dependencies).
 - `npm run package` builds `dist/gh-subissue-fields.zip` for the Chrome Web Store.
 
-GitHub's issue page markup changes from time to time. The selectors that find sub-issue rows live at the top of `content.js`.
+GitHub's issue page markup changes from time to time. The selectors that find sub-issue rows live at the top of `content.js`; they use `data-*` attributes because GitHub's CSS class names are hashed and change between deploys.
 
 ## Licence
 

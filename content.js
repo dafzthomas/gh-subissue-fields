@@ -1,5 +1,5 @@
-const ROW_LINK = 'a[class*="SubIssueTitle-module__titleAnchor"]';
-const LIST = '[class*="SubIssuesListView-module__listContainer"]';
+const LIST = '[data-testid="sub-issues-issue-container"]';
+const ROW_LINK = `${LIST} a[data-nested-list-view-component="title-link"]`;
 const LINK_PATH = /^\/([^/]+\/[^/]+)\/issues\/(\d+)/;
 
 const FIELD = '... on ProjectV2FieldCommon { name }';
